@@ -1,0 +1,46 @@
+One line description of the layer
+
+Dependencies
+============
+
+[Add a list of the layers that this layer depends on in the following format]
+
+URI	git://git.example.org/meta-example
+branch: honister
+meta-example/sub-layer1 (dir containing the layer if it is not the top level)
+meta-example/sub-layer2
+
+URI git://git.whatever.tld/meta-whatever
+branch: main
+
+Patches
+=======
+
+[Describe where patches and bugs can be sent using a mailing list or contact]
+
+Please submit any patches against the meta-example layer via the meta-mionh github at
+https://github.com/some_org/meta-layer and cc: the maintainer:
+
+Maintainer: Maintainer Name <email@org.tld>
+
+Table of Contents
+=================
+
+[Add any information required to build and use the layer]
+
+  I. Adding the meta-mion layer to your build
+ II. Building
+
+
+I. Adding the meta-layer layer to your build
+=================================================
+
+Run 'bitbake-layers add-layer meta-layer'
+
+II. Building
+============
+
+FIXME
+
+III. etc.
+=========
